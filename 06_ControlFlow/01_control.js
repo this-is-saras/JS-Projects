@@ -15,3 +15,27 @@ if(score >100){
 }
 
 console.log(`user power: ${power}`);
+
+//shorthand Notation
+
+if(balance>50000) console.log("test");
+
+if(balance < 50){
+  console.log("less then");
+}else if(balance<75){
+  console.log("less then 75")
+}else{
+  console.log("greater then 100");
+}
+
+const userLoggedIn = true
+const debitCard =true
+const loggedInFromGoogle =false
+const loggedInFromEmail = true
+if (loggedInFromEmail || loggedInFromGoogle) {
+  console.log("user logged in");
+}
+
+if (userLoggedIn && debitCard && 2==3) {
+  console.log("Allow to buy");
+}
